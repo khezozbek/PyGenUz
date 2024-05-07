@@ -18,3 +18,4 @@ class Book(Base):
     title = Column(String(100), nullable=False)
     author = Column(String(100), nullable=False)
     published_date = Column(DateTime)
+
