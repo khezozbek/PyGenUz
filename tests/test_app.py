@@ -189,3 +189,4 @@ def test_html_response_helper(app, test_client):
     assert "Best title" in response.text
     assert "Best body" in response.text
 
+
